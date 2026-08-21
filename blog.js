@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded',()=>{const el=document.getElementById('blog-grid');if(!el)return;el.innerHTML=BLOG_POSTS.map((p,i)=>`<article class="card"><span class="tag">${p.category}</span><h3>${p.title}</h3><div class="date">${p.date}</div><p>${p.excerpt}</p><a class="view" href="blog-post.html?id=${i}">Read post →</a></article>`).join('')});
