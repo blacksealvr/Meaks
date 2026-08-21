@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded',()=>{const el=document.getElementById('updates-list');if(el)el.innerHTML=UPDATES.map(x=>`<article class="update"><div class="update-top"><span>${x.category}</span><span>${x.date}</span></div><h3>${x.title}</h3><p>${x.description}</p></article>`).join('')});
